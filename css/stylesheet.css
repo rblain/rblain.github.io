@@ -1,9 +1,16 @@
 body {
     background: url(../images/intro-bg.jpg) no-repeat center;
 }
-
 .intro-message {
     text-align: center;
     padding: 20% 0% 10% 0%;
     color: #fff;
+}
+.signup-form {
+    color:#fff;
+}
+#mc_embed_signup {
+    background: rgba(0, 0, 0, .5);
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
