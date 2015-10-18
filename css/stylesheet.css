@@ -1,15 +1,156 @@
 body {
-    background: url(../images/intro-bg.jpg) no-repeat center;
-}
-.intro-message {
     text-align: center;
-    padding: 20% 0% 10% 0%;
-    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    color: #969696;
 }
-.signup-form {
-    color:#fff;
+h1 {
+    font-size: 5.4rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 3.2rem;
+}
+p {
+    font-size: 1.8rem;
+}
+.logo {
+    width: 17rem;
+    margin-top: 1.4rem;
+}
+section {
+    padding-top: 12rem;
+}
+#home {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 50rem;
+    position: relative;
+    color: #fff;
+    padding-bottom: 10rem;
+}
+#home h2 {
+    margin-bottom: 6rem;
+    font-weight: 300;
+}
+#home a:link,
+#home a:visited {
+    color: #FFF;
+    border: .2rem solid #FFF;
+    text-align: center;
+    padding: .8rem 2.4rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: .25s ease;
+    font-weight: 500;
+    border-radius: .5rem;
+    transition: .5s ease;
+}
+#home a:hover,
+#home a:active {
+    opacity: .5;
+    transition: .5s ease;
+    font-weight: 400;
+}
+#features {
+    padding-top: 4rem;
+}
+#features h2 {
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #8fa1c9;
+    letter-spacing: .15rem;
+}
+.feature {
+    margin-bottom: 5rem;
+}
+.feature-img {
+    width: 4.8rem;
+}
+#contact {
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+}
+#contact h2 {
+    color: #8fa1c9;
+    font-weight: 700;
 }
 #mc_embed_signup {
-    clear: left;
+    background: #fff;
     font: 14px Helvetica, Arial, sans-serif;
+}
+#mc_embed_signup input.email {
+    padding: 8px 0px;
+    margin: 0px 0px 10px 0px;
+    text-indent: 5px;
+    width: 40%;
+    min-width: 130px;
+    text-align: center;
+}
+#mc_embed_signup input {
+    border: .1rem solid #8fa1c9;
+    border-radius: .5rem;
+}
+.submit {
+    padding: .8rem 2.4rem;
+    background-color: #8fa1c9;
+    color: #fff;
+    transition: .5s ease;
+}
+.submit:hover {
+    opacity: .5;
+}
+footer {
+    padding: .5rem;
+}
+footer p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+@media (min-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    .feature {
+        margin-bottom: 2.5rem;
+    }
+    #features {
+        padding-top: 4rem;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3.6rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 2.4rem;
+    }
+    p {
+        font-size: 1.8rem;
+    }
+    .logo {
+        width: 17rem;
+        margin-top: 1.4rem;
+    }
+    section {
+        padding-top: 2rem;
+    }
+    #home {
+        min-height: 3.6rem;
+        padding-top: 1.6rem;
+        padding-bottom: 5rem;
+    }
+    #home h2 {
+        margin-bottom: 6rem;
+        font-weight: 300;
+    }
+    #mc_embed_signup input.email {
+        width: 60%;
+    }
 }
